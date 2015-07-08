@@ -33,4 +33,10 @@ git checkout new_branch can be combined into one statement
 
 git checkout -b new_branch
 
+git auto merging and manual merging
+A manual merge has to be done if there are conflicts, i.e. if more than one branch has made changes to one of the files.
+You have to edit it to sort out the merge.
+
+
+
 
