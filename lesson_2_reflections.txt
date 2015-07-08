@@ -12,5 +12,25 @@ git init to start a git repository in your folder
 You should commit after every change and have a list of stuff you changed.  This will make it easier to locate any bugs.
 Sublime editor not working.
 
+08-Jul-15
+
+git add puts it into the staging area
+git diff (no arguments) compares the working directory with the staging area
+git diff --staged compares the staging area with the most recent commit
+git checkout master gets the latest
+
+Creating a branch
+
+For the asteroids project, we wanted the asteroid to break into 2 instead of 3 pieces, to make the game easier.
+
+git branch (shows master)
+git branch easy-mode (creates an easy-mode branch)
+git checkout easy-mode switches to this branch
+git branch shows the two brances with a * next to the current one
+
+git branch new-branch
+git checkout new_branch can be combined into one statement
+
+git checkout -b new_branch
 
 
