@@ -10,6 +10,7 @@ git checkout			- to get the code at that point
 git init to start a git repository in your folder
 
 You should commit after every change and have a list of stuff you changed.  This will make it easier to locate any bugs.
+Sublime editor not working.
 
 
 
